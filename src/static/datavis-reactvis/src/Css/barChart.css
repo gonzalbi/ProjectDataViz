@@ -1,0 +1,59 @@
+.barChart_div{
+    display: inline-block;
+    flex: 1 1;
+    background-color: #1A181C;
+    padding: 10px;
+    color: #fff;
+    height: 100%;
+    padding-bottom: 30px;
+    margin: 10px;
+}
+
+.window_top {
+	margin-bottom: 15px;
+}
+
+.titulo {
+	display: inline-block;
+	font-family: helvetica, arial;
+	font-size: 16px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.charts {
+	display: flex;
+  	align-items: stretch;
+  	flex-wrap: wrap;
+  	align-content: space-between;
+}
+
+.barChart {
+	margin: auto;
+}
+
+.window_icon_editorial {
+	display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  	background-image: url(../Img/editorial.png);
+  	vertical-align: middle;
+}
+
+.rv-xy-plot__inner {
+    fill: #ffffff !important;
+    font-size: 11px;
+    font-family: helvetica, arial;
+}
+
+.rv-xy-plot__axis__tick__text {
+    fill: #ffffff !important;
+    font-size: 11px;
+}
+
+.horizontal_gridlines {
+  opacity: 0.2;
+  text-decoration-style: dotted;
+}

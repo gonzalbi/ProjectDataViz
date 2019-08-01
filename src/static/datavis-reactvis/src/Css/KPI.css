@@ -1,0 +1,89 @@
+
+.KPI{
+    display: inline-block;
+    flex: 1 1;
+    background-color: #1A181C;
+    padding: 10px;
+    color: #fff;
+    height: 100%;
+    padding-bottom: 30px;
+    margin: 10px;
+}
+
+.titulo {
+  display: inline-block;
+  font-family: helvetica, arial;
+  font-size: 16px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.valor {
+  display: inline-block;
+  font-family: helvetica, arial;
+  font-weight: 600;
+  font-size: 32px;
+    vertical-align: middle;
+    margin-left: 25px;
+}
+
+.window_top {
+  margin-bottom: 15px;
+}
+
+.dashboard {
+  background-color: #272727;
+  display: block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.charts {
+  display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.rv-radial-chart {
+  margin: auto;
+}
+
+.window_icon_gender {
+  display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../Img/gender.png);
+    vertical-align: middle;
+}
+
+.kpi_frame {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-center;
+    align-content: flex-start;
+    padding: 8px;
+    width: 100%;
+}
+
+.filters_frame {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-center;
+    align-content: flex-start;
+    padding: 8px;
+    width: 100%;
+    background-color: #212121;
+}
+
+.filters_frame_top {
+  margin-bottom: 15px;
+}

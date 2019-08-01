@@ -1,0 +1,55 @@
+
+.KPI{
+    display: inline-block;
+    flex: 1 1;
+    background-color: #1A181C;
+    padding: 10px;
+    color: #fff;
+    height: 100%;
+    padding-bottom: 30px;
+    margin: 10px;
+}
+
+.titulo {
+  display: inline-block;
+  font-family: helvetica, arial;
+  font-size: 16px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.valor {
+  display: inline-block;
+  font-family: helvetica, arial;
+  font-weight: 600;
+  font-size: 32px;
+    vertical-align: middle;
+    margin-left: 25px;
+}
+
+.window_top {
+  margin-bottom: 15px;
+}
+
+.window_icon_gender {
+  display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../Img/gender.png);
+    vertical-align: middle;
+}
+
+.filterData{
+    background-color: #44006c;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.filtersRow{
+    display: flex
+}
+

@@ -1,0 +1,96 @@
+.Header {
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-center;
+    align-content: flex-start;
+    background-color: #1B1B1B;
+    padding: 8px;
+}
+
+.window_icon_phoenix {
+	display: inline-block;
+    width: 110px;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  	background-image: url(../Img/phoenix.png);
+  	vertical-align: middle;
+}
+
+.window_icons_menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-center;
+    align-content: flex-end;
+    background-color: #1B1B1B;
+}
+
+.window_icon_download {
+	display: inline-block;
+    width: 35px;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  	background-image: url(../Img/download_5.png);
+  	vertical-align: middle;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.window_icon_download:hover { 
+  filter: grayscale(0%);
+}
+
+.window_icon_dashboard {
+	display: inline-block;
+    width: 35px;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  	background-image: url(../Img/dashboard_5.png);
+  	vertical-align: middle;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.window_icon_dashboard:hover { 
+  filter: grayscale(0%);
+}
+
+.window_icon_section {
+	display: inline-block;
+    width: 10px;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  	background-image: url(../Img/section.png);
+  	vertical-align: middle;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+
+.window_icon_user {
+	display: inline-block;
+    width: 35px;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  	background-image: url(../Img/user_5.png);
+  	vertical-align: middle;
+  	margin-left: 2.5px;
+  	cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.window_icon_user:hover { 
+  filter: grayscale(0%);
+}

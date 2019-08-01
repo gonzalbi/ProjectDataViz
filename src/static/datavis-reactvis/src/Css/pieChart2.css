@@ -1,0 +1,70 @@
+.Action{
+  fill : #FFDE27 !important;
+  stroke : #FFDE27 !important;
+}
+
+.Comedy{
+  fill : #FF9922 !important;
+  stroke : #FF9922 !important;
+}
+
+.Sci-fi{
+  fill : #FF6B50 !important;
+  stroke : #FF6B50 !important;
+ 
+}
+
+.rv-xy-plot__series--label-text{
+  font-family: sans-serif;
+}
+
+.pieChart{
+    display: inline-block;
+    flex: 1 1;
+    background-color: #1A181C;
+    padding: 10px;
+    color: #fff;
+    height: 100%;
+    padding-bottom: 30px;
+    margin: 10px;
+}
+
+.titulo {
+	display: inline-block;
+	font-family: helvetica, arial;
+	font-size: 16px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.window_top {
+  margin-bottom: 15px;
+}
+
+.dashboard {
+	background-color: #272727;
+	display: block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.charts {
+	display: flex;
+  	align-items: stretch;
+  	flex-wrap: wrap;
+  	align-content: space-between;
+}
+
+.rv-radial-chart {
+	margin: auto;
+}
+
+.window_icon_category {
+	display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  	background-image: url(../Img/category.png);
+  	vertical-align: middle;
+}
