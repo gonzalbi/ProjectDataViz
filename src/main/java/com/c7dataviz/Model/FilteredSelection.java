@@ -3,8 +3,10 @@ package com.c7dataviz.Model;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class FilteredSelection {
+import java.util.Date;
 
+public class FilteredSelection {
+    //SUPERHERO
     public String[] gender;
     public String[] eyecolor;
     public String[] race;
@@ -35,4 +37,5 @@ public class FilteredSelection {
         this.alignment = alignment;
         this.weight = weight;
     }
+
 }

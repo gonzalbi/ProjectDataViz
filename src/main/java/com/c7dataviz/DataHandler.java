@@ -64,4 +64,38 @@ public class DataHandler {
         return return_data;
     }
 
+    //---------------------------------------------------------------------//
+    //---------------------------------------------------------------------//
+    //---------------------------------------------------------------------//
+    //---------------------------------------------------------------------//
+
+    @RequestMapping("/kron/data")
+    public String indexKron(){
+        Gson gson = new Gson();
+        ArrayList<KronData> kron = KronDataController.getAllData();
+        SelectionKController sc = new SelectionKController();
+        HashMap<String,ArrayList> return_data = generateChartsK(kron);
+        ArrayList<FilteredKSelection> fs = new ArrayList<>();
+        fs.add(sc.getAll());
+        return_data.put("Selection", fs);
+        return gson.toJson(return_data);
+    }
+
+
+    private HashMap<String,ArrayList> generateChartsK(ArrayList<KronData> kronData){
+
+        HashMap<String,ArrayList> return_data = new HashMap<>();
+        PieChartDataController pC = new PieChartDataController();
+        ArrayList<PieChart> funcionalidad_pcs;
+        try{
+            funcionalidad_pcs = pC.generateKPieChartData("funcionalidad",kronData);
+
+            return_data.put("funcionalidad",funcionalidad_pcs);
+
+        }catch (Exception e){
+            System.out.println(e);
+        }
+        return return_data;
+    }
+
 }
