@@ -88,7 +88,7 @@ public class DataHandler {
         PieChartDataController pC = new PieChartDataController();
         ArrayList<PieChart> funcionalidad_pcs;
         try{
-            funcionalidad_pcs = pC.generateKPieChartData("funcionalidad",kronData);
+            funcionalidad_pcs = pC.generatePieChartData("funcionalidad",kronData);
 
             return_data.put("funcionalidad",funcionalidad_pcs);
 

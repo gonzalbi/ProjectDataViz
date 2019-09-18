@@ -1,6 +1,7 @@
 package com.c7dataviz.Controller;
 
 import com.c7dataviz.Model.AreaSeries;
+import com.c7dataviz.Model.KronData;
 import com.c7dataviz.Model.SuperHero;
 
 import java.awt.geom.Area;
